@@ -1,6 +1,6 @@
 package com.example;
 
-public class Greeting {
+public class GTU {
 
 	private String content;
 
