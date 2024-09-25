@@ -1,4 +1,5 @@
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/deepaksorthiya/spring-boot-3-websocket/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/deepaksorthiya/spring-boot-3-websocket/tree/main)
+[![CircleCI](https://circleci.com/gh/deepaksorthiya/spring-boot-3-websocket.svg?style=svg)](https://circleci.com/gh/deepaksorthiya/spring-boot-3-websocket)
+
 # Getting Started
 
 ## Requirements:
