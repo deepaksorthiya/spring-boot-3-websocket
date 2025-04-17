@@ -5,7 +5,17 @@
 
 version: 2
 updates:
+  # Enable version updates for MAVEN
   - package-ecosystem: "maven" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
+      time: "23:59"
+      timezone: "Asia/Calcutta"
+  # Enable version updates for Github Action
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "23:59"
+      timezone: "Asia/Calcutta"

@@ -5,30 +5,45 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.3.5</version>
+        <version>3.4.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
     <artifactId>spring-boot-3-websocket</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-boot-3-websocket</name>
-    <description>Demo project for Spring Boot 3 WebSocket using stomp</description>
+    <description>Spring Boot 3 WebSocket using Stomp</description>
+    <url/>
+    <licenses>
+        <license/>
+    </licenses>
+    <developers>
+        <developer/>
+    </developers>
+    <scm>
+        <connection/>
+        <developerConnection/>
+        <tag/>
+        <url/>
+    </scm>
     <properties>
-        <java.version>17</java.version>
+        <java.version>21</java.version>
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-websocket</artifactId>
         </dependency>
 
-        <!-- webjars start -->
         <dependency>
             <groupId>org.webjars.npm</groupId>
             <artifactId>stomp__stompjs</artifactId>
             <version>7.0.0</version>
         </dependency>
-        <!-- webjars end -->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
