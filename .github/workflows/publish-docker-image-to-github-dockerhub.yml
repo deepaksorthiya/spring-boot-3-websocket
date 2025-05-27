@@ -43,7 +43,7 @@ jobs:
 
       - name: Build and push image
         id: push
-        uses: docker/build-push-action@v6.17.0
+        uses: docker/build-push-action@v6.18.0
         with:
           context: .
           push: true
