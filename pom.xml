@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.4.4</version>
+        <version>3.5.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
@@ -62,7 +62,7 @@
         <dependency>
             <groupId>org.webjars.npm</groupId>
             <artifactId>stomp__stompjs</artifactId>
-            <version>7.1.0</version>
+            <version>7.1.1</version>
         </dependency>
         <!-- UI Webjars End -->
 
@@ -80,7 +80,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <image>
-                        <name>deepaksorthiya/${project.artifactId}:${project.version}</name>
+                        <name>deepaksorthiya/${project.artifactId}:latest</name>
                         <publish>false</publish>
                         <createdDate>${maven.build.timestamp}</createdDate>
                         <builder>bellsoft/buildpacks.builder:musl</builder>

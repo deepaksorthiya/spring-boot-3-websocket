@@ -6,7 +6,7 @@
 
 ```
 Git: 2.49.0
-Spring Boot : 3.4.4
+Spring Boot : 3.5.0
 Java : 21
 Maven 3.9 +
 ```
