@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="https://www.thymeleaf.org" xmlns:layout="https://github.com/ultraq/thymeleaf-layout-dialect"
+      layout:decorate="~{layout}">
 <head>
     <title>Hello WebSocket</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="/webjars/bootstrap/5.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" href="/webjars/bootstrap/css/bootstrap.min.css" rel="stylesheet"></link>
     <link href="/css/main.css" rel="stylesheet">
 </head>
 <body>
@@ -47,10 +48,11 @@
         </div>
     </div>
 </div>
-<script src="/webjars/jquery/3.7.1/jquery.min.js"></script>
-<script src="/webjars/popper.js/2.11.7/umd/popper.min.js"></script>
-<script src="/webjars/bootstrap/5.3.6/js/bootstrap.min.js"></script>
-<script src="/webjars/stomp__stompjs/7.1.1/bundles/stomp.umd.min.js"></script>
+<script th:src="@{/webjars/jquery/jquery.min.js}" src="/webjars/jquery/jquery.min.js"></script>
+<script th:src="@{/webjars/popper.js/umd/popper.min.js}" src="/webjars/popper.js/umd/popper.min.js"></script>
+<script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}" src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+<script th:src="@{/webjars/stomp__stompjs/bundles/stomp.umd.min.js}"
+        src="/webjars/stomp__stompjs/bundles/stomp.umd.min.js"></script>
 <script src="/js/app.js"></script>
 </body>
 </html>
